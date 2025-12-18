@@ -13,6 +13,7 @@ st.set_page_config('Linear Regression', layout='centered')
 
 # Load CSS
 def load_css(file):
+    css_path = Path(__file__).parent / file
     with open(file) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
