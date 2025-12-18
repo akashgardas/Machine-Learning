@@ -1,43 +1,45 @@
 .stApp {
-  background: linear-gradient(
-    135deg,
-    #ffffff 0%,
-    #00be396b 50%,
-    #ffffff 100%
-  );
-  min-height: 100vh;
-  font-family: "Seogo UI", sans-serif;
+  background: linear-gradient(135deg, #ffffff, #d1fae5, #ffffff);
+  font-family: "Segoe UI", sans-serif;
+  height: 100%;
+}
+
+section[data-testid="stMain"] {
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 1rem;
 }
 
 .card {
-  background-color: #e7e7e7;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
-  margin-bottom: 25px;
-  padding: 25px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 0px 24px;
+  margin-bottom: 16px;
 }
 
-h1,
-h2,
-h3 {
-  color: #0f172a;
+.header-card {
+  text-align: center;
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
+}
+
+.header-card h1,
+.header-card p {
+  color: #ffffff;
 }
 
 div[data-testid="metric-container"] {
-  background-color: #f8fafc;
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background: #f1f5f9;
+  border-radius: 14px;
+  padding: 14px;
 }
 
 .prediction-box {
-  background-color: linear-gradient(135deg, #dcfce7, #bbf7d0);
-  padding: 22px;
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+  padding: 20px;
   border-radius: 14px;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #14532d;
-  margin-top: 15px;
 }
-
