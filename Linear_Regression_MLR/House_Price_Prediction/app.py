@@ -25,7 +25,7 @@ st.markdown("Exploratory Data Analysis (EDA) + Linear Regression Model")
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("./house_price_regression_dataset.csv")
+    return pd.read_csv("house_price_regression_dataset.csv")
 
 df = load_data()
 
