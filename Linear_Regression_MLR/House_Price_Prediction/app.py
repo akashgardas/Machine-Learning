@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
@@ -25,7 +26,9 @@ st.markdown("Exploratory Data Analysis (EDA) + Linear Regression Model")
 # -----------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("house_price_regression_dataset.csv")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(base_dir, "house_price_regression_dataset.csv")
+    return pd.read_csv(csv_path)
 
 df = load_data()
 
