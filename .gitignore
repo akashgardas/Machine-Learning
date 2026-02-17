@@ -63,8 +63,8 @@ htmlcov/
 # =========================
 # Model / data artifacts
 # =========================
-*.pkl
-*.joblib
+# *.pkl
+# *.joblib
 *.h5
 *.npy
 *.npz
