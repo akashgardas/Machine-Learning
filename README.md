@@ -14,6 +14,19 @@ Over 84 commits. Countless hours of hands-on work. One goal: *build genuine, pra
 
 ---
 
+## 🚀 Live Deployments
+
+A few models from this repo have been deployed as interactive web apps on Streamlit:
+
+| App | Description | Link |
+|-----|-------------|------|
+| **Anomaly Detection** | Detects unusual patterns and outliers in data using an Isolation Forest model. | [Launch ↗](https://ml-anomaly-detection-model.streamlit.app/) |
+| **KNN Credit Risk Prediction** | Predicts whether a loan applicant is a credit risk using K-Nearest Neighbors. | [Launch ↗](https://machine-learning-knn-credit-risk-prediction.streamlit.app/) |
+| **Telco Customer Churn** | Predicts the likelihood of a telecom customer churning using Logistic Regression. | [Launch ↗](https://logistic-reg-telco-customer-churn.streamlit.app/) |
+| **SLR — Tips Dataset** | Predicts tip amount based on bill total using Simple Linear Regression. | [Launch ↗](https://ml-slr-tips-dataset.streamlit.app/) |
+
+---
+
 ## 📂 Repository Structure
 
 | Module | Category | Description |
